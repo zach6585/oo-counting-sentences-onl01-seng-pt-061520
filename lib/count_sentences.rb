@@ -19,6 +19,7 @@ class String
     b = self.split("!")
     c = self.split("?")
     d = 0 
-    while 
+    a.each do |sen|
+      if 
   end
 end
