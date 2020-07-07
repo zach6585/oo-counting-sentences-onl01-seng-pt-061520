@@ -20,6 +20,10 @@ class String
     c = self.split("?")
     d = 0 
     a.each do |sen|
-      if 
+      if sen != ""
+        d += 1 
+      end 
+    end 
+        
   end
 end
