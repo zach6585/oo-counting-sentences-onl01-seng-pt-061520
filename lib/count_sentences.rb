@@ -36,8 +36,7 @@ class String
       end 
     end 
     d 
-    
+    binding.pry
   end
   
 end
-binding.pry
