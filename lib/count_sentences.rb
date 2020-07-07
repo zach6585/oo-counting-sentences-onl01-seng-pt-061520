@@ -24,3 +24,5 @@ class String
     end 
   end
 end
+
+count_sentences
