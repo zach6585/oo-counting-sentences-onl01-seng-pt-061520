@@ -22,7 +22,7 @@ class String
         d += 1 
       end 
     end 
-        
+    d 
   end 
     
     # a = self.split(".")
