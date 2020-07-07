@@ -20,6 +20,8 @@ class String
     a.each do |items|
       if items.end_with?(".") || items.end_with?("?") || items.end_with?("!")
         d += 1 
+      end 
+    end 
         
   end 
     
