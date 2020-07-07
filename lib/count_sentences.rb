@@ -30,5 +30,5 @@ class String
     #   end 
     # end 
     # d
-  end
+  
 end
