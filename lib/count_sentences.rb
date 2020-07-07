@@ -19,6 +19,8 @@ class String
     a += self.count(".")
     a += self.count("?")
     a += self.count("!")
-    
+    if self.include?("...")
+      puts "here"
+    end 
   end
 end
