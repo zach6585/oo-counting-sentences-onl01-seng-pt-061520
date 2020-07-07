@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     a = self.split("."||"?"||"!")
+    puts a 
     d = 0 
     a.each do |sen|
       if sen != ""
