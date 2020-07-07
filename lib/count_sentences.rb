@@ -24,6 +24,16 @@ class String
         d += 1 
       end 
     end 
-        
+    b.each do |sen|
+      if sen != ""
+        d += 1 
+      end 
+    end 
+    
+    c.each do |sen|
+      if sen != ""
+        d += 1 
+      end 
+    end 
   end
 end
