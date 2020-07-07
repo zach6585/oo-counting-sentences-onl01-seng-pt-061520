@@ -18,7 +18,7 @@ class String
     a = self.split(".")
     b = self.split("!")
     c = self.split("?")
-    
-    a.size 
+    d = 0 
+    while 
   end
 end
