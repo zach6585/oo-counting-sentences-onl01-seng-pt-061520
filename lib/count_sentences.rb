@@ -20,5 +20,6 @@ class String
     a += self.count("?")
     a += self.count("!")
     a -= self.count("...")
+    a
   end
 end
