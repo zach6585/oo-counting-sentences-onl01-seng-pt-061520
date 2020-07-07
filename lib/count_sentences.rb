@@ -19,6 +19,7 @@ class String
     d = 0 
     a.each do |items|
       if items.end_with?(".") || items.end_with?("?") || items.end_with?("!")
+        
   end 
     
     # a = self.split(".")
