@@ -15,16 +15,18 @@ class String
   end
 
   def count_sentences
-    a = self.split(".")
-    a << self.split("!")
-    a << self.split("?")
-    puts "#{a}"
-    d = 0 
-    a.each do |sen|
-      if sen != ""
-        d +=1 
-      end 
-    end 
-    d
+    
+    
+    # a = self.split(".")
+    # a << self.split("!")
+    # a << self.split("?")
+    # puts "#{a}"
+    # d = 0 
+    # a.each do |sen|
+    #   if sen != ""
+    #     d +=1 
+    #   end 
+    # end 
+    # d
   end
 end
