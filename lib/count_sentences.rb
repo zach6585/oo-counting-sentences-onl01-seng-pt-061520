@@ -18,7 +18,7 @@ class String
     a = self.split(".")
     b = self.split("?")
     c = self.split("!")
-    puts "#{a}"
+    puts "#{a}, #{b}, #{c}"
     d = 0 
     a.each do |sen|
       if sen != ""
