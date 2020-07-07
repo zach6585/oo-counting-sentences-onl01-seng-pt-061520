@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    if question?
+    if self.question?
     a = self.split(".")
     b = self.split("!")
     c = self.split("?")
